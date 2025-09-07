@@ -12,7 +12,7 @@ function ComprehensiveContentAndHeader({ content, header }) {
 
   useGSAP(
     () => {
-      //headerRef stays the same so split headers stays the same
+      
 
       gsap.from(headerRef.current, {
         x: -100,

@@ -59,7 +59,6 @@ const NAV_ITEMS = [
 function ComprehensiveSection() {
   const container = useRef(null);
   const observerRef = useRef(null);
-  const smootherRef = useRef(null);
   const [activeSection, setActiveSection] = useState(1);
   const isScrolling = useRef(false);
 
