@@ -59,7 +59,6 @@ function StepsSection() {
           start: "top 80%",
           end: "bottom 20%",
           toggleActions: "play none none restart",
-          markers: true, // Uncomment to see the trigger markers
         },
       });
       masterTL.from(

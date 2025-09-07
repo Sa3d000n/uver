@@ -42,7 +42,7 @@ function HeadSection() {
           start: "top 80%",
           end: "bottom 20%",
           toggleActions: "play none restart reverse",
-          markers: true, // Uncomment to see the trigger markers
+        
         },
       });
       const splith2 = SplitText.create("h2", {
