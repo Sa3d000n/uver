@@ -15,7 +15,6 @@ export default function Home() {
           <HeadSection />
           <ComprehensiveSection />
           <StepsSection />
-          <StepsSection />
         </SmoothScrollWrapper>
       </main>
     </>
