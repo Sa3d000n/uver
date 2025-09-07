@@ -125,12 +125,13 @@ function StepsSection() {
             key={step.title}
           />
         ))}
-        <div className=" folder relative rounded-3xl shadow-lg overflow-hidden group  ">
+        <div className=" relative rounded-3xl shadow-lg overflow-hidden group  ">
           <Image
             alt="Students celebrating graduation"
             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
             src={successPhoto}
-            fill
+            height={512}
+            width={512}
           />
           <div className="absolute inset-0 bg-black/35  flex flex-col justify-end p-8 text-white">
             <h2 className="text-2xl font-bold mb-2">
