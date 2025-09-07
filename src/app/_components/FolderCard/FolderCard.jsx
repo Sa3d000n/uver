@@ -2,7 +2,7 @@ import styles from "./folderCard.module.css";
 export default function FolderCard({ title, description, icon }) {
   return (
     <div
-      className={`${styles.folder} folder  bg-blue-500 text-white  p-6 shadow-lg  `}
+      className={`${styles.folder} folder  bg-blue-500 text-white hover:scale-110 p-6 shadow-lg`}
     >
       {/* Icon */}
       {icon && <div className="text-4xl mb-7">{icon}</div>}

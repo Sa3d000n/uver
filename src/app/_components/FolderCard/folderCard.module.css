@@ -8,10 +8,7 @@
 }
 .folder:hover {
   filter: drop-shadow(0 0 2rem grey);
-  transform: translateY(-2rem);
-  transform: scale(1.5rem);
 }
-
 .folder::before {
   content: "";
   position: absolute;
